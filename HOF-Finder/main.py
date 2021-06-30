@@ -73,7 +73,7 @@ def main():
                         for line in data_input:
                             if 'PYARMOR' in line:
                                 logo()
-                                print(Fore.RED + '\n[-] Error: Pyarmor a été détecté')
+                                print(Fore.RED + '\n[-] Error: Le fichier ne peux pas être décompilé cela arrivera dans une prochaine version')
                                 back()
 
                             if '/api/webhooks/' in line:
